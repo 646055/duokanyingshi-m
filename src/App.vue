@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <h1>多看影视</h1>
-    <router-view />
+    <router-view :key="$route.fullPath" />
   </div>
 </template>
 
